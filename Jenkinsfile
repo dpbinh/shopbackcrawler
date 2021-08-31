@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Stage 1') {
+        stage('Compile') {
             steps {
                 mvn clean install
             }
